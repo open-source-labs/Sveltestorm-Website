@@ -7,11 +7,11 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-console.log(process.env.NODE_ENV)
+
 if (process.env.NODE_ENV === 'production') {
 
   // /dist/ folder path
-  const DIST_DIR = path.join(__dirname, '../dist');
+  const DIST_DIR = path.join(__dirname, './dist');
   console.log('server ding');
   // ./dist/index.html file path
   // const HTML_FILE = path.join(DIST_DIR, 'index.html');

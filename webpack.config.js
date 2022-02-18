@@ -7,7 +7,10 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: '/index.html',
   // favicon: "./favicon.ico"
 });
+
+console.log('in the webpack', process.env.NODE_ENV)
 module.exports = {
+  
   mode: process.env.NODE_ENV,
   entry: '/src/index.js',
   output: {
