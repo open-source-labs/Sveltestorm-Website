@@ -1,0 +1,45 @@
+{
+  "name": "sveltestorm-website",
+  "version": "2.0.0",
+  "description": "SvelteStorm website",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "build": "webpack --mode production",
+    "dev": "concurrently \"webpack serve --mode development\" \"nodemon server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvelteStorm/sveltestorm-website.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SvelteStorm/sveltestorm-website/issues"
+  },
+  "homepage": "https://github.com/SvelteStorm/sveltestorm-website#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "postcss": "^8.4.6",
+    "postcss-cssnext": "^3.1.1",
+    "postcss-import": "^14.0.2",
+    "svelte": "^3.46.4",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "concurrently": "^7.0.0",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
