@@ -1,8 +1,4 @@
-node_modules
-dist/
-.env
+/node_modules/
+/public/build/
+
 .DS_Store
-.vscode/
-.cache/
-coverage/
-.parcel-cache
