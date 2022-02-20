@@ -2,6 +2,7 @@
   import Navbar from './Navbar.svelte';
   import InfoSection from './InfoSection.svelte';
   import ImageSection from './ImageSection.svelte';
+  import Footer from './Footer.svelte';
 </script>
 
 <main>
@@ -15,6 +16,7 @@
   </div>
   <InfoSection />
   <ImageSection />
+  <Footer />
 </main>
 
 <style>
