@@ -1,3 +1,11 @@
+<script>
+  import sina from '../public/img/Sina.png';
+  import cayla from '../public/img/Cayla.png';
+  import miller from '../public/img/Miller.jpg';
+  import swetha from '../public/img/Swetha.jpeg';
+
+</script>
+
 <div class="container">
   <div class="section-title">
       <h1>Meet Our Team</h1>
@@ -9,7 +17,7 @@
       <div class="column">
           <div class="team">
               <div class="team-img">
-                  <img src="../public/img/Sina.png" alt="Sina Image">
+                  <img src={sina} alt="Sina Image">
               </div>
               <div class="team-content">
                   <h2>Sina Kahrobaei</h2>
@@ -26,7 +34,7 @@
       <div class="column">
         <div class="team">
             <div class="team-img">
-                <img src="../public/img/Cayla.PNG" alt="Cayla Image">
+                <img src={cayla} alt="Cayla Image">
             </div>
             <div class="team-content">
                 <h2>Cayla Co</h2>
@@ -42,7 +50,7 @@
     <div class="column">
       <div class="team">
           <div class="team-img">
-              <img src="../public/img/Miller.JPG" alt="Miller Image">
+              <img src={miller} alt="Miller Image">
           </div>
           <div class="team-content">
               <h2>Miller Johnston</h2>
@@ -58,7 +66,7 @@
       <div class="column">
           <div class="team">
               <div class="team-img">
-                  <img src="../public/img/Swetha.jpeg" alt="Swetha Image">
+                  <img src={swetha} alt="Swetha Image">
               </div>
               <div class="team-content">
                   <h2>Swetha Kunda</h2>
