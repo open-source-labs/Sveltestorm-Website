@@ -1,26 +1,31 @@
 <script>
-  import Navbar from "./Navbar.svelte";
+  import Navbar from './Navbar.svelte';
+  import InfoSection from './InfoSection.svelte';
+  import ImageSection from './ImageSection.svelte';
 </script>
 
 <main>
   <Navbar />
-  <div id='background'/>
-  <div id='container'>
-    <h1>Welcome!!!</h1>
-    <p>A lot of text can go here.</p>
+  <div>
+    <div id='background'/>
+    <div id='container'>
+      <h1>Welcome!!!</h1>
+      <p>A lot of text can go here.</p>
+    </div>
   </div>
+  <InfoSection />
+  <ImageSection />
 </main>
 
 <style>
 /* this was needed to reset the 8px padding that shows up in the Chrome browser!!! */
-  :global(*) {
+  :global(*, body) {
     margin: 0;
     padding: 0;
   }
 
   main {
 		text-align: center;
-		max-width: 240px;
 		margin: 0 auto;
 	}
 
@@ -38,7 +43,7 @@
   #container {
     color: white;
     position: relative;
-    padding-top: 15%;
+    padding-top: 130px;
   }
 
 	@media (min-width: 640px) {
