@@ -16,4 +16,4 @@ jobs:
       - name: Build SvelteStorm App
         run: npm install && npm run build
       - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./public/build s3://svelte-storm.com --delete
+        run: aws s3 sync ./public s3://svelte-storm.com --delete
