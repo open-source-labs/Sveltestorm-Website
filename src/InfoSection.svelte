@@ -1,29 +1,44 @@
 <section id='info'>
   <div class='container flex'>
     <div class='section-padding'>
-      <div class='section flex'>
-        <h1>First section</h1>
-        <p>Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.</p>
+      <div id = 'sectionflex' class='section flex'>
+        <h1 id = "header">Browser Window</h1>
+        <p id ="description">SvelteStorm's built-in browser window allows for developers to easily view their application without having to switch to a separate window! This feature increases efficiency and creates a smooth coding experience.</p>    
       </div>
     </div>
     <div class='section-padding middle'>
-      <div class='section flex'>
-        <h1>Second section</h1>
-        <p>Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.</p>
+      <div id = 'sectionflex' class='section flex'>
+        <h1 id = "header">State Management Tree</h1>
+        <p id = "description">SvelteStorm's state management tree makes it incredibly simple for developers to keep track of their state. The state window gives a clear layout of the codebase's various states so the developer can reference them at a glance. </p>
       </div>
     </div>
     <div class='section-padding'>
-      <div class='section flex'>
-        <h1>Third section</h1>
-        <p>Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!</p>
+      <div id = 'sectionflex' class='section flex'>
+        <h1 id= "header">Quick and Easy Download</h1>
+        <p id ="description">SvelteStorm is a distributable and with just a push of a button, developers can download SvelteStorm and hop right into the coding extravaganza. Follow the instructions below to try out SvelteStorm!</p>
       </div>
     </div>
   </div>
 </section>
 
 <style>
+   #description{
+   font-family:'lato', sans-serif;
+   font-size: 14px;
+   }
+ #header{
+    font-family:'lato', sans-serif;
+ }
+
+ #sectionflex{
+   background-color: white;
+   position:relative;
+   z-index: 5;
+ }
+
+
   #info {
-    margin-top: 220px;
+    margin-top: 80px;
   }
 
   .flex {
@@ -37,7 +52,7 @@
   }
 
   .section-padding {
-    height: 250px;
+    height: 190px;
     width: 20%;
     padding: 16px;
   }
@@ -45,7 +60,7 @@
     align-self: flex-start;
   }
   .section {
-    color: grey;
+    color: rgba(28, 28, 36, 0.678); 
     padding: inherit;
     flex-direction: column;
     justify-content: space-around;

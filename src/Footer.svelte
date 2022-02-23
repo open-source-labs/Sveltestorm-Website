@@ -1,8 +1,8 @@
 <script>
-  import sina from '../public/img/Sina.png';
-  import cayla from '../public/img/Cayla.png';
-  import miller from '../public/img/Miller.jpg';
-  import swetha from '../public/img/Swetha.jpeg';
+  import sina from '../public/img/sina.png';
+  import cayla from '../public/img/cayla.png';
+  import miller from '../public/img/miller.png';
+  import swetha from '../public/img/swetha.png';
 
 </script>
 
@@ -12,10 +12,8 @@
   </div>
 
   <div class="row">
-
-
       <div class="column">
-          <div class="team">
+           <div class="team">
               <div class="team-img">
                   <img src={sina} alt="Sina Image">
               </div>

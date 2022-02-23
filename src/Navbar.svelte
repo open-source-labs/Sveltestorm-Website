@@ -6,15 +6,24 @@
     <div class='flex'>
       <ul class='flex'>
         <li>
-          <a href='https://www.linkedin.com/company/svelocity/'>L</a>
+          <a href="https://www.linkedin.com/company/svelte-storm"><button>MEDIUM</button></a>
+          <!-- <a href='https://www.linkedin.com/company/svelte-storm'>L</a> -->
         </li>
         <li>
-          <a href='https://github.com/open-source-labs/SvelteStorm'>G</a>
+          <a href="https://www.linkedin.com/company/svelte-storm"><button>LINKEDIN</button></a>
+          <!-- <a href='https://www.linkedin.com/company/svelte-storm'>L</a> -->
+        </li>
+        <li>
+          <a href="https://github.com/open-source-labs/SvelteStorm"><button>GITHUB</button></a>
+          <!-- <a href='https://github.com/open-source-labs/SvelteStorm'>G</a> -->
+        </li>  
+        <li>
+          <button>DOWNLOAD</button>
         </li>
       </ul>
       <div>
-        <img src='../public/download-button.png'/>
-        <button>DOWNLOAD</button>
+        <!-- <img src='../public/download-button.png'/> -->
+      
       </div>
     </div>
   </div>
@@ -23,7 +32,7 @@
 
 <style>
   #navbar {
-    color: white;
+    color:rgba(55, 67, 80, 0.836); 
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -50,6 +59,7 @@
   }
 
   button {
+    color: rgba(22, 22, 29, 0.753); 
     padding: 7px;
     font-size: 12px;
     font-weight: bold;
