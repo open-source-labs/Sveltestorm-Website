@@ -1,12 +1,12 @@
 <div>
   <div class='section flex even'>
     <div class='width'>
-      <img id = 'sveltestorm' src='https://i.imgur.com/j3MOfdx.png'/>
+      <img id = 'sveltestorm' src='https://i.imgur.com/ALjdtDB.gif'/>
     </div>
     <div class='width'>
-      <h1 id= "header">State Visualizer</h1>
+      <h1 id= "header">How to Download</h1>
       <p id ="paragraph">
-        Do you have trouble keeping track of your many states while building an application? Have no fear, SvelteStorm is here! Our state visualizer provides a clear and concise layout for developers to view and edit their state. 
+        SvelteStorm is unbelievably easy to use and install! All you have to do is hit download for your Mac (M1 Chip specific) or Linux machine. For alternate devices, head over to our main repo on GitHub. All you have to do is fork, clone and npm install our lovely IDE. Happy Coding!
       </p>
     </div>
   </div>
@@ -18,17 +18,17 @@
       </p>
     </div>
     <div class='widthText'>
-      <img id = 'sveltestorm' src='https://i.imgur.com/6bj53gK.png' />
+      <img id = 'sveltestorm' src='https://i.imgur.com/uh6wEtK.gif' />
     </div>
   </div>
   <div class='section flex even'>
     <div class='widthText'>
-      <img id = 'sveltestorm' src='https://i.imgur.com/OlUREos.png' />
+      <img id = 'sveltestorm' src='https://i.imgur.com/ALjdtDB.gif' />
     </div>
     <div class='width'>
       <h1 id="header">Code Editor</h1>
       <p id = "paragraph">
-        Built using CodeMirror, SvelteStorm's code editor automatically completes keywords, contains bracket pairing and uses a lovely dracula dark mode theme to make the coding experience even more enjoyable.
+        Built using CodeMirror, SvelteStorm's code editor automatically completes keywords, contains bracket pairing and uses a lovely dracula dark-mode theme to make the coding experience even more enjoyable. 
       </p>
     </div>
   </div>
@@ -40,7 +40,7 @@
       </p>
     </div>
     <div class='widthCode'>
-      <img src='https://i.imgur.com/76Q1UAf.png' />
+      <img src='https://i.imgur.com/Br0TnuE.gif' />
     </div>
   </div>
 </div>
@@ -68,6 +68,7 @@
   }
   .even {
     background-color: rgba(226, 232, 240);
+    width: 100%;
   }
   img {
     height: 400px;

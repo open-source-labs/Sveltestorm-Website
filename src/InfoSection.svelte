@@ -8,8 +8,8 @@
     </div>
     <div class='section-padding middle'>
       <div id = 'sectionflex' class='section flex'>
-        <h1 id = "header">State Management Tree</h1>
-        <p id = "description">SvelteStorm's state management tree makes it incredibly simple for developers to keep track of their state. The state window gives a clear layout of the codebase's various states so the developer can reference them at a glance. </p>
+        <h1 id = "header">State Management Window</h1>
+        <p id = "description">Do you have trouble keeping track of your many states while building an application? Have no fear, SvelteStorm is here! Our state visualizer provides a clear and concise layout for developers to view and edit their state. </p>
       </div>
     </div>
     <div class='section-padding'>
