@@ -18,12 +18,12 @@
       </p>
     </div>
     <div class='widthText'>
-      <img id = 'sveltestorm' src='https://i.imgur.com/6bj53gK.png' />
+      <img id = 'sveltestorm' src='https://i.imgur.com/uh6wEtK.gif' />
     </div>
   </div>
   <div class='section flex even'>
     <div class='widthText'>
-      <img id = 'sveltestorm' src='https://i.imgur.com/OlUREos.png' />
+      <img id = 'sveltestorm' src='https://i.imgur.com/Br0TnuE.gif' />
     </div>
     <div class='width'>
       <h1 id="header">Code Editor</h1>
@@ -40,7 +40,7 @@
       </p>
     </div>
     <div class='widthCode'>
-      <img src='https://i.imgur.com/76Q1UAf.png' />
+      <img src='https://i.imgur.com/ALjdtDB.gif' />
     </div>
   </div>
 </div>
