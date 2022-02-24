@@ -1,9 +1,9 @@
 <div>
   <div class='section flex even'>
     <div class='width'>
-      <img id = 'sveltestorm' src='https://i.imgur.com/ALjdtDB.gif'/>
+      <img id = 'download' src='https://i.imgur.com/ALjdtDB.gif'/>
     </div>
-    <div class='width'>
+    <div class='downloadText'>
       <h1 id= "header">How to Download</h1>
       <p id ="paragraph">
         SvelteStorm is unbelievably easy to use and install! All you have to do is hit download for your Mac (M1 Chip specific) or Linux machine. For alternate devices, head over to our main repo on GitHub. All you have to do is fork, clone and npm install our lovely IDE. Happy Coding!
@@ -18,7 +18,7 @@
       </p>
     </div>
     <div class='widthText'>
-      <img id = 'sveltestorm' src='https://i.imgur.com/uh6wEtK.gif' />
+      <img id = 'browserWindow' src='https://i.imgur.com/uh6wEtK.gif' />
     </div>
   </div>
   <div class='section flex even'>
@@ -47,6 +47,14 @@
 
 <style>
 
+#download{
+  position: relative;
+  left: -100px;
+}
+#browserWindow{
+  height: 400px;
+  width: 525px;
+}
     #paragraph{
     font-family:'lato', sans-serif;
     font-size: 20px;
@@ -76,7 +84,7 @@
     box-shadow: 5px 5px 25px rgb(185, 180, 180);
   }
   .width {
-    width: 30%;
+    width: 50%;
     padding-left: 230px;
     padding-right: 50px;
   }

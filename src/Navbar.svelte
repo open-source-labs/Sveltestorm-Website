@@ -2,16 +2,15 @@
   <div class='flex'>
     <div>
       <div class = 'flex'>
+        <div class='flex'>
         <ul class='flex'>
-      <span> >
         <li>
-        <a href="https://s3.amazonaws.com/svelte-storm.com/sveltestorm-v2.0_2.0_amd64.zip"><input type="image" src="https://www.google.com/search?q=apple+logo&tbm=isch&chips=q:apple+logo,g_1:transparent:of0O-0hJ5tA%3D&hl=en&sa=X&ved=2ahUKEwi-nIag4Jf2AhUCNVkFHRN4Af8Q4lYoAHoECAEQGg&biw=1881&bih=919#imgrc=Q7en31eUU1LhrM" name="submit" width="70" height="70" alt="submit"/></a>
+          <a href="https://s3.amazonaws.com/svelte-storm.com/sveltestorm-v2.0_2.0_amd64.zip" download>
+            <img id ="cloud" src="https://i.imgur.com/to9s4Fn.png" height = "60" width ="150">
+          </a>
        </li> 
-       <li>
-       <a href="https://s3.amazonaws.com/svelte-storm.com/sveltestorm-v2.0_2.0_amd64.zip"><input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqh-JWgASd63ZevNPs2rjpNrOsfrF_1PeczA&usqp=CAU" name="submit" width="70" height="70" alt="submit"/></a>
-     </li>
-    </span>
   </ul>
+  </div>
   </div>
     </div>
     <div class='flex'>
@@ -63,14 +62,26 @@
     color: white;
   }
 
-  button {
+  #download {
     border-radius: 15px;
     box-shadow: 5px 5px 25px rgb(163, 162, 162);
 
+  }
+ 
+  #cloud{
+    float: left;
+    left: 250;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px rgb(163, 162, 162);
   }
 
   input { 
     border-radius: 30px;
   }
+  *, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
 </style>
