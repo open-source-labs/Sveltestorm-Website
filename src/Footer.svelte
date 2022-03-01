@@ -15,6 +15,7 @@
       <div class="column">
            <div class="team">
               <div class="team-img">
+                  <!-- svelte-ignore a11y-img-redundant-alt -->
                   <img src={sina} alt="Sina Image">
               </div>
               <div class="team-content">
@@ -23,8 +24,8 @@
               </div>
               <div class="team-social">
                   <a href="https://www.github.com/Skaybee" class="social-gh"> <i class="fab fa-github"></i></a>
-                  <a href="https://www.twitter.com/K_s1n4" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-                  <a href="https://www.linkedin.com/in/sinakahrobaei" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/sinakahrobaei" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.twitter.com/K_s1n4" class="social-tw"> <i class="fab fa-twitter"></i></a>
               </div>
           </div>
       </div>
@@ -32,6 +33,7 @@
       <div class="column">
         <div class="team">
             <div class="team-img">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
                 <img src={cayla} alt="Cayla Image">
             </div>
             <div class="team-content">
@@ -48,6 +50,7 @@
     <div class="column">
       <div class="team">
           <div class="team-img">
+              <!-- svelte-ignore a11y-img-redundant-alt -->
               <img src={miller} alt="Miller Image">
           </div>
           <div class="team-content">
@@ -64,6 +67,7 @@
       <div class="column">
           <div class="team">
               <div class="team-img">
+                  <!-- svelte-ignore a11y-img-redundant-alt -->
                   <img src={swetha} alt="Swetha Image">
               </div>
               <div class="team-content">
@@ -143,8 +147,8 @@ img{
 .section-title{
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 80px;
-    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 80px;
     text-align: center;
 }
 .section-title h1{
