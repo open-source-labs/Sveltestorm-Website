@@ -10,6 +10,79 @@
   <div class="section-title">
       <h1>Meet Our Team</h1>
   </div>
+  <!--SvelteStorm 3.0 Developers-->
+  <div class="row">
+    <div class="column">
+         <div class="team">
+            <div class="team-img">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img src={sina} alt="Sina Image">
+            </div>
+            <div class="team-content">
+                <h2>Andy Jiang</h2>
+                <h3>Software Engineer @ SvelteStorm</h3>
+            </div>
+            <div class="team-social">
+                <a href="https://www.github.com/Skaybee" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sinakahrobaei" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.twitter.com/K_s1n4" class="social-tw"> <i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+      <div class="team">
+          <div class="team-img">
+              <!-- svelte-ignore a11y-img-redundant-alt -->
+              <img src={cayla} alt="Cayla Image">
+          </div>
+          <div class="team-content">
+              <h2>Colton Robinson</h2>
+              <h3>Software Engineer @ SvelteStorm</h3>
+          </div>
+          <div class="team-social">
+              <a href="https://www.github.com/caycodes" class="social-gh"> <i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/cayla-co" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <div class="column">
+    <div class="team">
+        <div class="team-img">
+            <!-- svelte-ignore a11y-img-redundant-alt -->
+            <img src={miller} alt="Miller Image">
+        </div>
+        <div class="team-content">
+            <h2>Ricky Johnson</h2>
+            <h3>Software Engineer @ SvelteStorm</h3>
+        </div>
+        <div class="team-social">
+            <a href="https://www.github.com/MillerJ20" class="social-gh"> <i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/miller-johnston" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</div>
+
+    <div class="column">
+        <div class="team">
+            <div class="team-img">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img src={swetha} alt="Swetha Image">
+            </div>
+            <div class="team-content">
+                <h2>Zachary Radford</h2>
+                <h3>Software Engineer @ SvelteStorm</h3>
+            </div>
+            <div class="team-social">
+              <a href="https://www.github.com/swethakunda" class="social-gh"> <i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/swethakunda" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 
   <div class="row">
       <div class="column">
