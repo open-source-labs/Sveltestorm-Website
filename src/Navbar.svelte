@@ -81,7 +81,7 @@
 
         <li class="flex items-center">
           <button
-            onclick="window.location.href='https://s3.amazonaws.com/svelte-storm.com/sveltestorm-v2.0_2.0_amd64.zip'"
+            onclick="window.open('https://drive.google.com/u/0/uc?id=1NCeqDtRXB1hbrCLAKQPLb4AZOpP6Ns7g&export=download', '_blank')"
             class="bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
             type="button"
           >

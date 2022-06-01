@@ -3,7 +3,10 @@
   import cayla from '../public/img/cayla.png';
   import miller from '../public/img/miller.png';
   import swetha from '../public/img/swetha.png';
+  import andy from '../public/img/andy.png';
+  import colton from '../public/img/colton.png';
   import ricky from '../public/img/ricky.png';
+  import zach from '../public/img/zach.png';
 
 </script>
 
@@ -17,7 +20,7 @@
          <div class="team">
             <div class="team-img">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img src={sina} alt="Sina Image">
+                <img src={andy} alt="Andy Image">
             </div>
             <div class="team-content">
                 <h2>Andy Jiang</h2>
@@ -34,7 +37,7 @@
       <div class="team">
           <div class="team-img">
               <!-- svelte-ignore a11y-img-redundant-alt -->
-              <img src={cayla} alt="Cayla Image">
+              <img src={colton} alt="Colton Image">
           </div>
           <div class="team-content">
               <h2>Colton Robbins</h2>
@@ -68,7 +71,7 @@
         <div class="team">
             <div class="team-img">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img src={swetha} alt="Swetha Image">
+                <img src={zach} alt="Zach Image">
             </div>
             <div class="team-content">
                 <h2>Zachary Radford</h2>
