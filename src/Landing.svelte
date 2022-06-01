@@ -3,7 +3,7 @@
 	import Navbar from "./Navbar.svelte";
   import Footer from './Footer.svelte';
   import Section from './Section.svelte';
-  import logo from '../public/img/sslogo.png';
+ 
 </script>
 
 <Navbar />
@@ -23,15 +23,7 @@
             <div class="mt-4 text-lg text-white">
               <h2>A Svelte IDE</h2>
               <h3>Embrace the Storm.</h3>
-              <!--      
-              <img
-              alt="SvelteStorm Logo"
-              src={logo}
-              class="w-full align-middle rounded-t-lg"
-            />
-          -->
-              
-            </div>
+            </div>          
           </div>
         </div>
       </div>
@@ -158,8 +150,8 @@
           >
             <img
               alt="..."
-              src="https://i.imgur.com/FidiXsQ.gif"
-              class="w-full align-middle rounded-t-lg"
+              src="https://i.imgur.com/4fJCQZP.gif"
+              class="max-w-full rounded-lg shadow-lg"
             />
           </div>
         </div>
