@@ -3,6 +3,7 @@
   import cayla from '../public/img/cayla.png';
   import miller from '../public/img/miller.png';
   import swetha from '../public/img/swetha.png';
+  import ricky from '../public/img/ricky.png';
 
 </script>
 
@@ -23,9 +24,8 @@
                 <h3>Software Engineer @ SvelteStorm</h3>
             </div>
             <div class="team-social">
-                <a href="https://www.github.com/Skaybee" class="social-gh"> <i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sinakahrobaei" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.twitter.com/K_s1n4" class="social-tw"> <i class="fab fa-twitter"></i></a>
+                <a href="https://www.github.com/realandygithub" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/andy-c-jiang" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </div>
@@ -37,12 +37,12 @@
               <img src={cayla} alt="Cayla Image">
           </div>
           <div class="team-content">
-              <h2>Colton Robinson</h2>
+              <h2>Colton Robbins</h2>
               <h3>Software Engineer @ SvelteStorm</h3>
           </div>
           <div class="team-social">
-              <a href="https://www.github.com/caycodes" class="social-gh"> <i class="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/cayla-co" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.github.com/coltonro" class="social-gh"> <i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/c-robbins/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
           </div>
       </div>
   </div>
@@ -51,15 +51,15 @@
     <div class="team">
         <div class="team-img">
             <!-- svelte-ignore a11y-img-redundant-alt -->
-            <img src={miller} alt="Miller Image">
+            <img src={ricky} alt="Ricky Image">
         </div>
         <div class="team-content">
             <h2>Ricky Johnson</h2>
             <h3>Software Engineer @ SvelteStorm</h3>
         </div>
         <div class="team-social">
-            <a href="https://www.github.com/MillerJ20" class="social-gh"> <i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/miller-johnston" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.github.com/JSJedi" class="social-gh"> <i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ricky-johnson-0879b317" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
         </div>
     </div>
 </div>
@@ -75,8 +75,8 @@
                 <h3>Software Engineer @ SvelteStorm</h3>
             </div>
             <div class="team-social">
-              <a href="https://www.github.com/swethakunda" class="social-gh"> <i class="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/swethakunda" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.github.com/zachradf" class="social-gh"> <i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/zach-r-4098a610a" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </div>

@@ -6,7 +6,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src="https://i.imgur.com/uh6wEtK.gif"
+          src="https://i.imgur.com/92g0pVa.gif"
         />
       </div>
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -45,10 +45,10 @@
           >
             <i class="fa-solid fa-laptop-code text-xl"></i>
           </div>
-          <h3 class="text-3xl font-semibold">Code Editor</h3>
+          <h3 class="text-3xl font-semibold">Documentation Access</h3>
           <p class="mt-4 text-lg leading-relaxed text-gray-500">
-            Built using CodeMirror, SvelteStorm's code editor automatically completes keywords, contains bracket pairing 
-            and uses a lovely dracula dark-mode theme to make the coding experience even more enjoyable.
+            Built using CodeMirror, SvelteStorm's code editor automatically completes keywords, displays clickable tooltips on keyword selection, 
+            and provides built-in access to official Svelte documentation to boost your development efficiency.
           </p>
         </div>
       </div>
@@ -56,7 +56,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src="https://i.imgur.com/ALjdtDB.gif"
+          src="https://i.imgur.com/bWhRqzs.gif"
         />
       </div>
     </div>
@@ -73,7 +73,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src="https://i.imgur.com/Br0TnuE.gif"
+          src="https://i.imgur.com/bgTGpvl.gif"
         />
       </div>
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
