@@ -3,13 +3,14 @@
 	import Navbar from "./Navbar.svelte";
   import Footer from './Footer.svelte';
   import Section from './Section.svelte';
+ 
 </script>
 
 <Navbar />
 <main>
 	<div class="relative pt-28 pb-48 flex content-center items-center justify-center min-h-screen-75">
     <div
-      class="absolute top-0 w-full h-full bg-center bg-cover bg-gray-800"
+      class="absolute top-0 w-full h-full bg-center bg-cover bg-gray-900"
     >
     </div>
     <div class="container relative mx-auto">
@@ -22,7 +23,7 @@
             <div class="mt-4 text-lg text-white">
               <h2>A Svelte IDE</h2>
               <h3>Embrace the Storm.</h3>
-            </div>
+            </div>          
           </div>
         </div>
       </div>
@@ -47,6 +48,7 @@
       </svg>
     </div>
   </div>
+
 
   
 
@@ -148,8 +150,8 @@
           >
             <img
               alt="..."
-              src="https://i.imgur.com/ALjdtDB.gif"
-              class="w-full align-middle rounded-t-lg"
+              src="https://i.imgur.com/4fJCQZP.gif"
+              class="max-w-full rounded-lg shadow-lg"
             />
           </div>
         </div>
