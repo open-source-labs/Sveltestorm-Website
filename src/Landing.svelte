@@ -107,8 +107,8 @@
               </div>
               <h6 class="text-xl font-semibold">Quick and Easy Download</h6>
               <p class="mt-2 mb-4 text-blueGray-500">
-                SvelteStorm is a distributable and with just a push of a button, 
-                developers can download SvelteStorm and hop right into the coding extravaganza. 
+                SvelteStorm distributables are in progress so keep your eyes out! For now, 
+                developers can easily clone down our repo and hop right into the this fresh Svelte coding experience. 
                 Follow the instructions below to try out SvelteStorm!
               </p>
             </div>
@@ -131,12 +131,12 @@
             class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
           >
           SvelteStorm is unbelievably easy to use and install! 
-          All you have to do is hit download for your Mac (M1 Chip specific) or Linux machine.
+          Distributables are in progress for Mac (M1 Chip specific), Linux, and Windows machines.
           </p>
           <p
             class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600"
           >
-          For alternate devices, head over to our main repo on GitHub. 
+          For the time being, head over to our main repo on <a href="https://github.com/open-source-labs/SvelteStorm" target="_blank"><b>GitHub</b></a>. 
           All you have to do is fork, clone and npm install our lovely IDE.
           </p>
           <p>
