@@ -3,20 +3,23 @@
 	import Navbar from "./Navbar.svelte";
   import Footer from './Footer.svelte';
   import Section from './Section.svelte';
- 
+  import logo from '../public/img/SvelteStorm4Logo10x1024.png'
 </script>
 
 <Navbar />
 <main>
-	<div class="relative pt-28 pb-48 flex content-center items-center justify-center min-h-screen-75">
+  <div class="relative pt-28 pb-48 flex content-center items-center justify-center min-h-screen-75">
     <div
-      class="absolute top-0 w-full h-full bg-center bg-cover bg-gray-900"
+    class="absolute top-0 w-full h-full bg-center bg-cover bg-indigo-900"
     >
+    <center>
+      <img src={logo} alt='SvelteStorm Logo' id='logo' width=600 height=600>
+    </center>
     </div>
     <div class="container relative mx-auto">
       <div class="items-center flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-          <div class="pr-12">
+          <div class="headerText">
             <h1 class="text-white font-semibold text-5xl">
               Welcome to SvelteStorm
             </h1>
@@ -83,13 +86,12 @@
               <div
                 class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
               >
-                <i class="fa-solid fa-window-maximize"></i>
+                <i class="fa-solid fa-clock-rotate-left"></i>
               </div>
-              <h6 class="text-xl font-semibold">State Management Window</h6>
+              <h6 class="text-xl font-semibold">Time Travel Debugger</h6>
               <p class="mt-2 mb-4 text-blueGray-500">
-                Do you have trouble keeping track of your many states while building an application? 
-                Have no fear, SvelteStorm is here! Our state visualizer provides a clear and concise 
-                layout for developers to view and edit their state.
+                SvelteStorm's Time Travel debugging tool allows developers to capture snapshots of a running application and 
+                change the current state in real-time, making it easier than ever to chase down bugs. 
               </p>
             </div>
           </div>
@@ -168,4 +170,31 @@
   @tailwind base;
   @tailwind components;
   @tailwind utilities;
+
+  /* #landing-container{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url('SvelteStorm4Logo10x512.png');
+    box-shadow: 15px 15px 50px 0 rgb(0, 0, 0) inset, -15px -15px 50px 0 rgb(0, 0, 0) inset;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+   */
+  #logo {
+    -webkit-filter: blur(2px);
+    position: relative;
+    top: -100px;
+  }
+  .headerText{
+    text-shadow: 2px 2px 4px #000000
+  }
+  
 </style>
+
