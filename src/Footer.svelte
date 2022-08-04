@@ -7,6 +7,11 @@
   import colton from '../public/img/colton.png';
   import ricky from '../public/img/ricky.png';
   import zach from '../public/img/zach.png';
+  import elliott from '../public/img/elliott.png';
+  import karen from '../public/img/karen.png';
+  import jim from '../public/img/jim.png';
+  import ian from '../public/img/ian.png';
+  import ryan from '../public/img/ryan.png';
 
 </script>
 
@@ -14,8 +19,92 @@
   <div class="section-title">
       <h1>Meet Our Team</h1>
   </div>
-  <!--SvelteStorm 3.0 Developers-->
+  <!--SvelteStorm 4.0 Developers-->
   <div class="row">
+    <div class="column">
+        <div class="team">
+           <div class="team-img">
+               <!-- svelte-ignore a11y-img-redundant-alt -->
+               <img src={elliott} alt="Elliott Image">
+           </div>
+           <div class="team-content">
+               <h2>Elliott Burr</h2>
+               <h3>Software Engineer @ SvelteStorm</h3>
+           </div>
+           <div class="team-social">
+               <a href="https://www.github.com/elliottburr" class="social-gh"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/elliott-burr" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+           </div>
+       </div>
+   </div>
+   <div class="column">
+        <div class="team">
+           <div class="team-img">
+               <!-- svelte-ignore a11y-img-redundant-alt -->
+               <img src={jim} alt="Jim Image">
+           </div>
+           <div class="team-content">
+               <h2>Jim White</h2>
+               <h3>Software Engineer @ SvelteStorm</h3>
+           </div>
+           <div class="team-social">
+               <a href="https://www.github.com/HirsuteJim" class="social-gh"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/jim-white" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+           </div>
+       </div>
+   </div>
+
+    <div class="column">
+        <div class="team">
+           <div class="team-img">
+               <!-- svelte-ignore a11y-img-redundant-alt -->
+               <img src={karen} alt="Karen Image">
+           </div>
+           <div class="team-content">
+               <h2>Karen Cheung</h2>
+               <h3>Software Engineer @ SvelteStorm</h3>
+           </div>
+           <div class="team-social">
+               <a href="https://www.github.com/karenc810" class="social-gh"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/karen-cheung8108/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+           </div>
+       </div>
+   </div>
+
+    <div class="column">
+        <div class="team">
+            <div class="team-img">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img src={ian} alt="Ian Image">
+            </div>
+            <div class="team-content">
+                <h2>Ian Jackson</h2>
+                <h3>Software Engineer @ SvelteStorm</h3>
+            </div>
+            <div class="team-social">
+                <a href="https://www.github.com/irjackson" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/irjackson9" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="team">
+            <div class="team-img">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img src={ryan} alt="Ryan Image">
+            </div>
+            <div class="team-content">
+                <h2>Ryan Huie</h2>
+                <h3>Software Engineer @ SvelteStorm</h3>
+            </div>
+            <div class="team-social">
+                <a href="https://www.github.com/8-ryan-8" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ryanhuie8" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--SvelteStorm 3.0 Developers-->
     <div class="column">
          <div class="team">
             <div class="team-img">
@@ -67,6 +156,11 @@
     </div>
 </div>
 
+</div>
+
+
+  <div class="row">
+
     <div class="column">
         <div class="team">
             <div class="team-img">
@@ -83,11 +177,7 @@
             </div>
         </div>
     </div>
-
-</div>
-
-
-  <div class="row">
+    
       <div class="column">
            <div class="team">
               <div class="team-img">
@@ -138,27 +228,27 @@
               <a href="https://www.linkedin.com/in/miller-johnston" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
           </div>
       </div>
+    </div>
   </div>
 
-      <div class="column">
-          <div class="team">
-              <div class="team-img">
-                  <!-- svelte-ignore a11y-img-redundant-alt -->
-                  <img src={swetha} alt="Swetha Image">
-              </div>
-              <div class="team-content">
-                  <h2>Swetha Kunda</h2>
-                  <h3>Software Engineer @ SvelteStorm</h3>
-              </div>
-              <div class="team-social">
+    <div class='row justify-center'>
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
+                    <img src={swetha} alt="Swetha Image">
+                </div>
+                <div class="team-content">
+                    <h2>Swetha Kunda</h2>
+                    <h3>Software Engineer @ SvelteStorm</h3>
+                </div>
+                <div class="team-social">
                 <a href="https://www.github.com/swethakunda" class="social-gh"> <i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/swethakunda" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
-              </div>
-          </div>
-      </div>
-
-  </div>
-
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 

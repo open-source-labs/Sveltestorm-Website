@@ -17,7 +17,7 @@
     <div
       class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
     >
-      <a
+      <!-- <a
         use:link
         class="text-white text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
         href="/"
@@ -30,13 +30,7 @@
         on:click="{setNavbarOpen}"
       >
         <i class="text-white fas fa-bars"></i>
-      </button>
-    </div>
-    <div
-      class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none rounded shadow-lg {navbarOpen ? 'block':'hidden'}"
-      id="example-navbar-warning"
-    >
-
+      </button> -->
       <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
         <li class="flex items-center">
         </li>
@@ -78,6 +72,15 @@
             <span class="lg:hidden inline-block ml-2">Star</span>
           </a>
         </li>
+      </ul>
+    </div>
+    <div
+      class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none rounded shadow-lg {navbarOpen ? 'block':'hidden'}"
+      id="example-navbar-warning"
+    >
+
+      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+       
 
         <li class="flex items-center">
           <button
