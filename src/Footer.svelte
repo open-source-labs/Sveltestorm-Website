@@ -66,7 +66,7 @@
            </div>
            <div class="team-social">
                <a href="https://www.github.com/karenc810" class="social-gh"> <i class="fab fa-github"></i></a>
-               <a href="https://www.linkedin.com/in/karen-cheung8" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+               <a href="https://www.linkedin.com/in/karen-cheung8108/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
            </div>
        </div>
    </div>
@@ -230,8 +230,8 @@
       </div>
     </div>
   </div>
-  
-    <div class='row'>
+
+    <div class='row justify-center'>
         <div class="column">
             <div class="team">
                 <div class="team-img">

@@ -6,7 +6,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src=""
+          src="https://s4.gifyu.com/images/ssdemo-1.gif"
         />
       </div>
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -19,7 +19,7 @@
           <h3 class="text-3xl font-semibold">Time Travel Debugging</h3>
           <p class="mt-4 text-lg leading-relaxed text-gray-500">
             SvelteStorm now includes a built-in Time Travel Debugging developer tool. The tool allows developers to capture and 
-            cache snapshots of each component and their states at state changes. Developers are able to jump between 
+            cache snapshots of each component and their state changes. Developers are able to jump between 
             snapshots, view component states, and render their projects at the time of the snapshot. 
           </p>
           <p class="mt-4 text-lg leading-relaxed text-gray-500">
@@ -41,7 +41,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src="https://i.imgur.com/92g0pVa.gif"
+          src="https://s4.gifyu.com/images/ezgif.com-gif-maker1b706abffafb597e6.gif"
         />
       </div>
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -58,7 +58,7 @@
           </p>
           <p class="mt-4 text-lg leading-relaxed text-gray-500">
             SvelteStorm contains a pop-out browser window that opens automatically after an application is compiled,
-            allowing developers to quickly test their code.
+            allowing you to quickly test your code.
           </p>
           
         </div>
@@ -91,7 +91,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src="https://i.imgur.com/bWhRqzs.gif"
+          src="https://s4.gifyu.com/images/ezgif.com-gif-maker27549ea5379df0c70.gif"
         />
       </div>
     </div>
@@ -108,7 +108,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src="https://i.imgur.com/bgTGpvl.gif"
+          src="https://s4.gifyu.com/images/ezgif.com-gif-maker351eb97063c021711.gif"
         />
       </div>
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">

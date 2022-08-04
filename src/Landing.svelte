@@ -90,7 +90,7 @@
               </div>
               <h6 class="text-xl font-semibold">Time Travel Debugger</h6>
               <p class="mt-2 mb-4 text-blueGray-500">
-                SvelteStorm's Time Travel debugging tool allows developers to capture snapshots of a running application and 
+                SvelteStorm's Time Travel Debugging tool allows developers to capture snapshots of a running application and 
                 change the current state in real-time, making it easier than ever to chase down bugs. 
               </p>
             </div>
@@ -152,7 +152,7 @@
           >
             <img
               alt="..."
-              src="https://i.imgur.com/4fJCQZP.gif"
+              src="https://s4.gifyu.com/images/ezgif.com-gif-maker9a35bac3e8702a7d.gif"
               class="max-w-full rounded-lg shadow-lg"
             />
           </div>
@@ -191,6 +191,7 @@
     -webkit-filter: blur(2px);
     position: relative;
     top: -100px;
+    filter: brightness(75%)
   }
   .headerText{
     text-shadow: 2px 2px 4px #000000
