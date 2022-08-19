@@ -12,6 +12,12 @@
   import jim from '../public/img/jim.png';
   import ian from '../public/img/ian.png';
   import ryan from '../public/img/ryan.png';
+  import arron from '../public/img/arron.jpg';
+  import aye from '../public/img/aye.jpg';
+  import frank from '../public/img/frank.jpg';
+  import kevin from '../public/img/kevin.jpg';
+  import sam from '../public/img/sam.jpg';
+
 
 </script>
 
@@ -158,7 +164,6 @@
 
 </div>
 
-
   <div class="row">
 
     <div class="column">
@@ -231,7 +236,8 @@
     </div>
   </div>
 
-    <div class='row justify-center'>
+
+  <div class="row">
         <div class="column">
             <div class="team">
                 <div class="team-img">
@@ -248,7 +254,102 @@
                 </div>
             </div>
         </div>
+
+      <!--SvelteStorm 1.0 Developers-->
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
+                    <img src={arron} alt="Arron Image">
+                </div>
+                <div class="team-content">
+                    <h2>Arron Nestor</h2>
+                    <h3>Software Engineer @ SvelteStorm</h3>
+                </div>
+                <div class="team-social">
+                <a href="https://github.com/NesTar6" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arron-nestor/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
+                    <img src={aye} alt="Aye Image">
+                </div>
+                <div class="team-content">
+                    <h2>Aye Moe</h2>
+                    <h3>Software Engineer @ SvelteStorm</h3>
+                </div>
+                <div class="team-social">
+                <a href="https://github.com/ayemmoe" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayemmoe/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
+                    <img src={frank} alt="Frank Image">
+                </div>
+                <div class="team-content">
+                    <h2>Frank Stepanski</h2>
+                    <h3>Software Engineer @ SvelteStorm</h3>
+                </div>
+                <div class="team-social">
+                <a href="https://github.com/frankstepanski" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/frankstepanski/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="row">
+
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
+                    <img src={kevin} alt="Kevin Image">
+                </div>
+                <div class="team-content">
+                    <h2>Kevin Sarchi</h2>
+                    <h3>Software Engineer @ SvelteStorm</h3>
+                </div>
+                <div class="team-social">
+                <a href="https://github.com/Svrchi" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kevin-sarchi/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="team">
+                <div class="team-img">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
+                    <img src={sam} alt="Sam Image">
+                </div>
+                <div class="team-content">
+                    <h2>Sam Filip</h2>
+                    <h3>Software Engineer @ SvelteStorm</h3>
+                </div>
+                <div class="team-social">
+                <a href="https://github.com/samfilip" class="social-gh"> <i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sam-filip/" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class='row justify-center'>
 </div>
 
 
