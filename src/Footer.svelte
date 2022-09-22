@@ -1,4 +1,8 @@
 <script>
+  import lani from '../public/img/lani.jpg';
+  import kiran from '../public/img/kiran.jpeg';
+  import javi from '../public/img/javi.jpeg';
+  import mahmoud from '../public/img/mahmoud.jpg';
   import sina from '../public/img/sina.png';
   import cayla from '../public/img/cayla.png';
   import miller from '../public/img/miller.png';
@@ -25,6 +29,77 @@
   <div class="section-title">
       <h1>Meet Our Team</h1>
   </div>
+  <!-- SvelteStorm 5.0 Developers, AKA the best SvelteStorm developers team ever! -->
+  <div class="row">
+    <div class="column">
+        <div class="team">
+           <div class="team-img">
+               <!-- svelte-ignore a11y-img-redundant-alt -->
+               <img src={lani} alt="Elliott Image">
+           </div>
+           <div class="team-content">
+               <h2>Lani Hernandez</h2>
+               <h3>Software Engineer @ SvelteStorm</h3>
+           </div>
+           <div class="team-social">
+               <a href="https://github.com/lherna05" class="social-gh"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/lherna05" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+           </div>
+       </div>
+   </div>
+   <div class="column">
+        <div class="team">
+           <div class="team-img">
+               <!-- svelte-ignore a11y-img-redundant-alt -->
+               <img src={kiran} alt="Elliott Image">
+           </div>
+           <div class="team-content">
+               <h2>Kiran Banger</h2>
+               <h3>Software Engineer @ SvelteStorm</h3>
+           </div>
+           <div class="team-social">
+               <a href="https://github.com/kiranbanger" class="social-gh"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/kiranbanger" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+           </div>
+       </div>
+   </div>
+   <div class="column">
+        <div class="team">
+           <div class="team-img">
+               <!-- svelte-ignore a11y-img-redundant-alt -->
+               <img src={javi} alt="Elliott Image">
+           </div>
+           <div class="team-content">
+               <h2>Javi Orozco</h2>
+               <h3>Software Engineer @ SvelteStorm</h3>
+           </div>
+           <div class="team-social">
+               <a href="https://github.com/jorozco94" class="social-gh"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/javier-orozco" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+           </div>
+       </div>
+   </div>
+   <div class="column">
+        <div class="team">
+           <div class="team-img">
+               <!-- svelte-ignore a11y-img-redundant-alt -->
+               <img src={mahmoud} alt="Elliott Image">
+           </div>
+           <div class="team-content">
+               <h2>Mahmoud Albadawi</h2>
+               <h3>Software Engineer @ SvelteStorm</h3>
+           </div>
+           <div class="team-social">
+               <a href="https://github.com/CodeMahmoud" class="social-gh"> <i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/mahmoudalbadawi" class="social-li"> <i class="fab fa-linkedin-in"></i></a>
+           </div>
+       </div>
+   </div>
+
+  </div>
+
+
+
   <!--SvelteStorm 4.0 Developers-->
   <div class="row">
     <div class="column">
@@ -182,7 +257,7 @@
             </div>
         </div>
     </div>
-    
+
       <div class="column">
            <div class="team">
               <div class="team-img">
@@ -581,6 +656,6 @@ margin-bottom: 0;
     .container{
         max-width: 1140px;
     }
-   
+
 }
 </style>

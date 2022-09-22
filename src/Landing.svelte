@@ -23,10 +23,18 @@
             <h1 class="text-white font-semibold text-5xl">
               Welcome to SvelteStorm
             </h1>
-            <div class="mt-4 text-lg text-white">
-              <h2>A Svelte IDE</h2>
-              <h3>Embrace the Storm.</h3>
-            </div>          
+             <!-- <h1 class="text-white font-semibold text-5xl">
+              SvelteStorm 5.0!
+            </h1> -->
+             <!-- <h3 class="text-white font-semibold text-3xl">
+              By OS Labs
+            </h3> -->
+
+
+            <div class="mt-12 text-white font-semibold text-3xl">
+              <h2>An Enhanced Svelte IDE</h2>
+              <h3>By OS Labs</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -53,7 +61,7 @@
   </div>
 
 
-  
+
 
   <section class="pb-20 bg-gray-100 -mt-24">
     <div class="container mx-auto px-4">
@@ -63,16 +71,16 @@
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
           >
             <div class="px-4 py-5 flex-auto">
+              <!-- <p><span class="blink">New!</span></p> -->
               <div
                 class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
               >
-                <i class="fa-brands fa-chrome"></i>
+                <i class='fa-solid fa-gauge-high'></i>
               </div>
-              <h6 class="text-xl font-semibold">Browser Window</h6>
+              <h6 class="text-xl font-semibold">Performance Dashboard</h6>
               <p class="mt-2 mb-4 text-blueGray-500">
-                SvelteStorm's built-in browser window allows for developers to easily view their application 
-                without having to switch to a separate window! 
-                This feature increases efficiency and creates a smooth coding experience.
+                Provides developers with the ability to monitor renderings and web vitals for their application,
+                 to ensure components are rendering as expected with real-time data visualization!
               </p>
             </div>
           </div>
@@ -90,35 +98,40 @@
               </div>
               <h6 class="text-xl font-semibold">Time Travel Debugger</h6>
               <p class="mt-2 mb-4 text-blueGray-500">
-                SvelteStorm's Time Travel Debugging tool allows developers to capture snapshots of a running application and 
-                change the current state in real-time, making it easier than ever to chase down bugs. 
+                SvelteStorm's Time Travel Debugging tool allows developers to capture snapshots of a running application and
+                change the current state in real-time, making it easier than ever to chase down bugs.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+
+
+
+        <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
           >
             <div class="px-4 py-5 flex-auto">
+              <!-- <p><span class="blink">New!</span></p> -->
               <div
                 class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
               >
-                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <i class='fa-solid fa-window-restore'></i>
               </div>
-              <h6 class="text-xl font-semibold">Quick and Easy Download</h6>
+              <h6 class="text-xl font-semibold">Enhanced Editor</h6>
               <p class="mt-2 mb-4 text-blueGray-500">
-                SvelteStorm distributables are in progress so keep your eyes out! For now, 
-                developers can easily clone down our repo and hop right into the this fresh Svelte coding experience. 
-                Follow the instructions below to try out SvelteStorm!
+                SvelteStorm now supports JavaScript and HTML linters, Split-View for side view code comparison ,
+                and Search functionality to help with developers workflow when building/testing their Svelte Apps!
               </p>
             </div>
           </div>
         </div>
       </div>
 
-
+      <div class="mt-12 text-purple font-semibold text-5xl text-center">
+              <h2>Embrace the Storm!</h2>
+            </div>
       <div class="flex flex-wrap items-center mt-32">
         <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
           <div
@@ -132,13 +145,13 @@
           <p
             class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
           >
-          SvelteStorm is unbelievably easy to use and install! 
+          SvelteStorm is unbelievably easy to use and install!
           Distributables are in progress for Mac (M1 Chip specific), Linux, and Windows machines.
           </p>
           <p
             class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600"
           >
-          For the time being, head over to our main repo on <a href="https://github.com/open-source-labs/SvelteStorm" target="_blank"><b>GitHub</b></a>. 
+          For the time being, head over to our main repo on <a href="https://github.com/open-source-labs/SvelteStorm" target="_blank"><b>GitHub</b></a>.
           All you have to do is fork, clone and npm install our lovely IDE.
           </p>
           <p>
@@ -196,6 +209,20 @@
   .headerText{
     text-shadow: 2px 2px 4px #000000
   }
-  
-</style>
+  .blink {
+  animation: blink 1s steps(1, end) infinite;
+}
 
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+</style>
